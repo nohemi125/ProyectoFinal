@@ -147,24 +147,11 @@ public class frm_pagina extends javax.swing.JFrame {
     String usuario = txt_usuario.getText();
     String contraseña = txt_contraseña.getText();
 
-         boolean credencialesValidas = false;
-        for (usuario u : listaUsuarios) {
-            if (u.verificarCredenciales(usuario, contraseña)) {
-                credencialesValidas = true;
-                break;
-            }
-        }
-    if (credencialesValidas) {
-            JOptionPane.showMessageDialog(this, "Inicio de sesión ","", JOptionPane.INFORMATION_MESSAGE);
-
-        
-     frm_pagina2 nuevapagina = new frm_pagina2(); 
+      
+    
+     frm_pagina3 nuevapagina = new frm_pagina3(); 
      nuevapagina.setVisible(true);
-     this.dispose();// ciera la venta cuando se abra otra, y evia que se aculuen todas las ventanas abiertas
-     
-    } else {
-        JOptionPane.showMessageDialog(this, "no te has registrado", "Error", JOptionPane.ERROR_MESSAGE);
-    }
+     this.dispose();
     }//GEN-LAST:event_btn_loginActionPerformed
 
     private void btn_registrarseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_registrarseActionPerformed
