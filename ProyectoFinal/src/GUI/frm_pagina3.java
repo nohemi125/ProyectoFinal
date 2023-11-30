@@ -162,7 +162,9 @@ public class frm_pagina3 extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_notificacionesActionPerformed
 
     private void btn_todoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_todoActionPerformed
-       
+    frm_pagina4 nuevapagina = new frm_pagina4 (); 
+     nuevapagina.setVisible(true);
+     this.dispose(); 
     }//GEN-LAST:event_btn_todoActionPerformed
 
     private void btn_salirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_salirActionPerformed

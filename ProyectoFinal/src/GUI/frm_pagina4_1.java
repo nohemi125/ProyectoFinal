@@ -38,14 +38,14 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        btn_rebeca = new javax.swing.JButton();
-        btn_luisa = new javax.swing.JButton();
+        btn_nohemi = new javax.swing.JButton();
+        btn_abdielito = new javax.swing.JButton();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        btn_yeis = new javax.swing.JButton();
-        btn_fercho = new javax.swing.JButton();
-        btn_santi = new javax.swing.JButton();
-        btn_dana = new javax.swing.JButton();
+        btn_naranjita = new javax.swing.JButton();
+        btn_lola = new javax.swing.JButton();
+        btn_timoteo = new javax.swing.JButton();
+        btn_ross = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
 
@@ -88,7 +88,7 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addGap(126, 126, 126)
                 .addComponent(jLabel7)
-                .addGap(0, 167, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,7 +113,7 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/wynny.jpeg"))); // NOI18N
         jLabel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 51), 3));
-        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, 190, 200));
+        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 490, 190, 190));
 
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cruela.jpeg"))); // NOI18N
@@ -126,7 +126,7 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/malefica.jpeg"))); // NOI18N
         jLabel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 51), 3));
-        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 490, -1, 190));
+        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 490, -1, 200));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/girl.jpeg"))); // NOI18N
         jLabel11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 51), 3));
@@ -134,7 +134,7 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/mujer maravi.jpeg"))); // NOI18N
         jLabel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 51), 3));
-        jPanel3.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 490, -1, 190));
+        jPanel3.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, -1, 200));
 
         btn_siguiente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bnt_siguiente.png"))); // NOI18N
         btn_siguiente.setBorderPainted(false);
@@ -158,31 +158,31 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estrella_4 (1).png"))); // NOI18N
         jPanel3.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 680, -1, -1));
 
-        btn_rebeca.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_rebeca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_rebeca.setText("Nohemi Morelo Rivas");
-        btn_rebeca.setBorderPainted(false);
-        btn_rebeca.setContentAreaFilled(false);
-        btn_rebeca.setDefaultCapable(false);
-        btn_rebeca.addActionListener(new java.awt.event.ActionListener() {
+        btn_nohemi.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_nohemi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_nohemi.setText("Nohemi Morelo Rivas");
+        btn_nohemi.setBorderPainted(false);
+        btn_nohemi.setContentAreaFilled(false);
+        btn_nohemi.setDefaultCapable(false);
+        btn_nohemi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_rebecaActionPerformed(evt);
+                btn_nohemiActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_rebeca, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 440, -1, -1));
+        jPanel3.add(btn_nohemi, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 110, -1, -1));
 
-        btn_luisa.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_luisa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_luisa.setText("Abdielito Lulito");
-        btn_luisa.setBorderPainted(false);
-        btn_luisa.setContentAreaFilled(false);
-        btn_luisa.setDefaultCapable(false);
-        btn_luisa.addActionListener(new java.awt.event.ActionListener() {
+        btn_abdielito.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_abdielito.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_abdielito.setText("Abdielito Lulito");
+        btn_abdielito.setBorderPainted(false);
+        btn_abdielito.setContentAreaFilled(false);
+        btn_abdielito.setDefaultCapable(false);
+        btn_abdielito.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_luisaActionPerformed(evt);
+                btn_abdielitoActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_luisa, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 120, -1, 40));
+        jPanel3.add(btn_abdielito, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 120, -1, 40));
 
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estrella_4 (1).png"))); // NOI18N
         jPanel3.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 680, -1, -1));
@@ -190,53 +190,53 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/estrella_5 (1).png"))); // NOI18N
         jPanel3.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 680, -1, -1));
 
-        btn_yeis.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_yeis.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_yeis.setText("Naranjita Esprimida");
-        btn_yeis.setBorderPainted(false);
-        btn_yeis.setContentAreaFilled(false);
-        btn_yeis.addActionListener(new java.awt.event.ActionListener() {
+        btn_naranjita.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_naranjita.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_naranjita.setText("Naranjita Esprimida");
+        btn_naranjita.setBorderPainted(false);
+        btn_naranjita.setContentAreaFilled(false);
+        btn_naranjita.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_yeisActionPerformed(evt);
+                btn_naranjitaActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_yeis, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 440, -1, -1));
+        jPanel3.add(btn_naranjita, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 440, -1, -1));
 
-        btn_fercho.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_fercho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_fercho.setText("lola Lamento");
-        btn_fercho.setBorderPainted(false);
-        btn_fercho.setContentAreaFilled(false);
-        btn_fercho.addActionListener(new java.awt.event.ActionListener() {
+        btn_lola.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_lola.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_lola.setText("lola Lamento");
+        btn_lola.setBorderPainted(false);
+        btn_lola.setContentAreaFilled(false);
+        btn_lola.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_ferchoActionPerformed(evt);
+                btn_lolaActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_fercho, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
+        jPanel3.add(btn_lola, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 110, -1, -1));
 
-        btn_santi.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_santi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_santi.setText("Timoteo J333");
-        btn_santi.setBorderPainted(false);
-        btn_santi.setContentAreaFilled(false);
-        btn_santi.addActionListener(new java.awt.event.ActionListener() {
+        btn_timoteo.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_timoteo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_timoteo.setText("Timoteo J333");
+        btn_timoteo.setBorderPainted(false);
+        btn_timoteo.setContentAreaFilled(false);
+        btn_timoteo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_santiActionPerformed(evt);
+                btn_timoteoActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_santi, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 440, -1, -1));
+        jPanel3.add(btn_timoteo, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 440, -1, -1));
 
-        btn_dana.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
-        btn_dana.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
-        btn_dana.setText("Ross Miriam");
-        btn_dana.setBorderPainted(false);
-        btn_dana.setContentAreaFilled(false);
-        btn_dana.addActionListener(new java.awt.event.ActionListener() {
+        btn_ross.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
+        btn_ross.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar2.png"))); // NOI18N
+        btn_ross.setText("Ross Miriam");
+        btn_ross.setBorderPainted(false);
+        btn_ross.setContentAreaFilled(false);
+        btn_ross.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_danaActionPerformed(evt);
+                btn_rossActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_dana, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, -1, -1));
+        jPanel3.add(btn_ross, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 440, -1, -1));
 
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bnt_Atras.png"))); // NOI18N
         jButton8.setBorderPainted(false);
@@ -248,47 +248,47 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
         jButton9.setContentAreaFilled(false);
         jPanel3.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, -1, -1));
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 750));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 750));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btn_yeisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_yeisActionPerformed
-      frm_pagina9 nuevapagina = new frm_pagina9 (); 
+    private void btn_naranjitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_naranjitaActionPerformed
+     frm_pagina15 nuevapagina = new frm_pagina15 (); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_yeisActionPerformed
+    }//GEN-LAST:event_btn_naranjitaActionPerformed
 
-    private void btn_danaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_danaActionPerformed
+    private void btn_rossActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_rossActionPerformed
         
-      frm_pagina5 nuevapagina = new frm_pagina5(); 
+      frm_pagina11 nuevapagina = new frm_pagina11 (); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_danaActionPerformed
+    }//GEN-LAST:event_btn_rossActionPerformed
 
-    private void btn_santiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_santiActionPerformed
-       frm_pagina6 nuevapagina = new frm_pagina6(); 
+    private void btn_timoteoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_timoteoActionPerformed
+     frm_pagina14 nuevapagina = new frm_pagina14(); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_santiActionPerformed
+    }//GEN-LAST:event_btn_timoteoActionPerformed
 
-    private void btn_luisaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_luisaActionPerformed
-        frm_pagina7 nuevapagina = new frm_pagina7 (); 
+    private void btn_abdielitoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_abdielitoActionPerformed
+    frm_pagina13 nuevapagina = new frm_pagina13 (); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_luisaActionPerformed
+    }//GEN-LAST:event_btn_abdielitoActionPerformed
 
-    private void btn_ferchoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ferchoActionPerformed
-     frm_pagina8 nuevapagina = new frm_pagina8 (); 
+    private void btn_lolaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_lolaActionPerformed
+     frm_pagina11 nuevapagina = new frm_pagina11 (); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_ferchoActionPerformed
+    }//GEN-LAST:event_btn_lolaActionPerformed
 
-    private void btn_rebecaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_rebecaActionPerformed
-        frm_pagina10 nuevapagina = new frm_pagina10 (); 
+    private void btn_nohemiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_nohemiActionPerformed
+     frm_pagina16 nuevapagina = new frm_pagina16 (); 
      nuevapagina.setVisible(true);
      this.dispose();
-    }//GEN-LAST:event_btn_rebecaActionPerformed
+    }//GEN-LAST:event_btn_nohemiActionPerformed
 
     
     public static void main(String args[]) {
@@ -325,13 +325,13 @@ public class frm_pagina4_1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_dana;
-    private javax.swing.JButton btn_fercho;
-    private javax.swing.JButton btn_luisa;
-    private javax.swing.JButton btn_rebeca;
-    private javax.swing.JButton btn_santi;
+    private javax.swing.JButton btn_abdielito;
+    private javax.swing.JButton btn_lola;
+    private javax.swing.JButton btn_naranjita;
+    private javax.swing.JButton btn_nohemi;
+    private javax.swing.JButton btn_ross;
     private javax.swing.JButton btn_siguiente;
-    private javax.swing.JButton btn_yeis;
+    private javax.swing.JButton btn_timoteo;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
