@@ -38,6 +38,11 @@ public class frm_pagina3 extends javax.swing.JFrame {
         btn_clases.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/video (1) (1) (1).png"))); // NOI18N
         btn_clases.setBorderPainted(false);
         btn_clases.setContentAreaFilled(false);
+        btn_clases.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_clasesActionPerformed(evt);
+            }
+        });
 
         btn_inicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/descarga__4___1_-removebg-preview.png"))); // NOI18N
         btn_inicio.setBorderPainted(false);
@@ -166,6 +171,12 @@ public class frm_pagina3 extends javax.swing.JFrame {
      nuevapagina.setVisible(true);
      this.dispose();
     }//GEN-LAST:event_btn_salirActionPerformed
+
+    private void btn_clasesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_clasesActionPerformed
+        frm_pagina4 nuevapagina = new frm_pagina4(); 
+     nuevapagina.setVisible(true);
+     this.dispose();
+    }//GEN-LAST:event_btn_clasesActionPerformed
 
     /**
      * @param args the command line arguments

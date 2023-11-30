@@ -12,6 +12,8 @@ public class frm_pagina extends javax.swing.JFrame {
     
     public frm_pagina() {
         initComponents();
+         txt_usuario.putClientProperty("JComponent.roundRect",true); //redonde la caja de texto
+      
     }
     
       public frm_pagina(ArrayList<usuario> listaUsuarios) {
@@ -71,6 +73,11 @@ public class frm_pagina extends javax.swing.JFrame {
         });
 
         txt_usuario.setBackground(new java.awt.Color(239, 219, 194));
+        txt_usuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_usuarioActionPerformed(evt);
+            }
+        });
 
         btn_registrarse.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 20)); // NOI18N
         btn_registrarse.setText("¿registrarse?");
@@ -159,6 +166,10 @@ public class frm_pagina extends javax.swing.JFrame {
      nuevapagina.setVisible(true);
      this.dispose();// ciera la venta cuando se abra otra, y evia que se acumulen todas las ventanas abiertas
     }//GEN-LAST:event_btn_registrarseActionPerformed
+
+    private void txt_usuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_usuarioActionPerformed
+      
+    }//GEN-LAST:event_txt_usuarioActionPerformed
 
     /**
      * @param args the command line arguments
